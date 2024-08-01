@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 public class SubmitServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("Submit Servlet");
+		System.out.println("## Submit Servlet ##");
 		System.out.println(req.getParameter("name"));
 		System.out.println(req.getParameter("addr"));
 	}
